@@ -1,5 +1,5 @@
-nums=[1,2,3,4,5]
-target=9
+nums=[int(x) for x in input().split()]   #user provided input list 
+target=int(input())
 def sum_two(nums,target):
     
     if len(nums) <= 1:
